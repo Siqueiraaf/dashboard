@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <title>Deposito de Bebidas</title>
+</head>
+<body>
+  <div class="container">
+    <div class="navigation">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="pint"></ion-icon>
+            </span>
+            <span class="title">DOI2 Amigos</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/assets/html/clientes.html">
+            <span class="icon">
+              <ion-icon name="home"></ion-icon>
+            </span>
+            <span class="title">Início</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="people-circle"></ion-icon>
+            </span>
+            <span class="title">Clientes</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="chatbubbles"></ion-icon>
+            </span>
+            <span class="title">Menssagens</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="help-circle"></ion-icon>
+            </span>
+            <span class="title">Ajuda</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="settings"></ion-icon>
+            </span>
+            <span class="title">Configurações</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="lock-closed"></ion-icon>
+            </span>
+            <span class="title">Senha</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="log-out"></ion-icon>
+            </span>
+            <span class="title">Sair</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <div class="topbar">
+        <div class="toggle">
+          <ion-icon name="menu-outline"></ion-icon>
+        </div>
+
+        <div class="search">
+          <label>
+            <input type="text" placeholder="Search here">
+            <ion-icon name="search-outline"></ion-icon>
+          </label>
+        </div>
+        
+        <div class="user">
+          <img src="assets/imgs/img2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="cardBox">
+        <div class="card">
+          <div class="numbers">1.504</div>
+          <div class="cardName">Estoque</div>
+
+          <div class="iconBx">
+            <ion-icon name="cube"></ion-icon>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="numbers">80</div>
+          <div class="cardName">Vendas</div>
+
+          <div class="iconBx">
+            <ion-icon name="cart"></ion-icon>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="numbers">284</div>
+          <div class="cardName">Comentários</div>
+
+          <div class="iconBx">
+            <ion-icon name="chatbubbles"></ion-icon>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="numbers">R$7.842</div>
+          <div class="cardName">Lucros</div>
+          
+          <div class="iconBx">
+            <ion-icon name="cash"></ion-icon>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="details">
+        <div class="recentOrders">
+          <div class="cardHeader">
+            <h2>Ordens Recentes</h2>
+            <a href="#" class="btn">Ver Tudo</a>
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Payment</td>
+                <td>Status</td>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Vodka 1.75L</td>
+                <td>R$ 58,31</td>
+                <td>Paid</td>
+                <td><span class="status delivered">Entregue</span></td>
+              </tr>
+
+              <tr>
+                <td>Gin 700ML</td>
+                <td>R$ 77,00</td>
+                <td>Due</td>
+                <td><span class="status pending">Pendente</span></td>
+              </tr>
+
+              <tr>
+                <td>Vinho</td>
+                <td>R$ 54,90</td>
+                <td>Paid</td>
+                <td><span class="status return">Retornando</span></td>
+              </tr>
+
+              <tr>
+                <td>Whisky</td>
+                <td>R$ 113,50</td>
+                <td>Due</td>
+                <td><span class="status inProgress">Em Andamento</span></td>
+              </tr>
+              <tr>
+                <td>Água Mineral 1.5L</td>
+                <td>R$ 2,69</td>
+                <td>Paid</td>
+                <td><span class="status delivered">Entregue</span></td>
+              </tr>
+
+              <tr>
+                <td>Energético 2L</td>
+                <td>R$ 11,99</td>
+                <td>Due</td>
+                <td><span class="status pending">Pendente</span></td>
+              </tr>
+
+              <tr>
+                <td>Refrigerante 2L</td>
+                <td>R$ 8,50</td>
+                <td>Paid</td>
+                <td><span class="status return">Retornando</span></td>
+              </tr>
+
+              <tr>
+                <td>Cerveja Long Neck</td>
+                <td>R$ 6,99</td>
+                <td>Due</td>
+                <td><span class="status inProgress">Em Andamento</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="recentCustomers">
+          <div class="cardHeader">
+            <h2>Pedidos Recentes</h2>
+          </div>
+
+          <table>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="assets/imgs/user img ok.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>David <br> <span>Niterói - RJ, Alameda, Conde Pedroso N° 50</span></h4>
+              </td>
+            </tr>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="assets/imgs/user img ok.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>Richard <br> <span>São Gonçalo - RJ, Porto da Pedra, Birigui N° 6574</span></h4>
+              </td>
+            </tr>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="assets/imgs/user img ok.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>Robson <br> <span>São Gonçalo - RJ, Rio do Ouro, Jurumenha N° 6955</span></h4>
+              </td>
+            </tr>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="assets/imgs/user img ok.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>Cristiane <br> <span>Niterói - RJ, Fonseca, Nilma Soares N° 555</span></h4>
+              </td>
+            </tr>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="assets/imgs/user img ok.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>Ryan <br> <span>São Gonçalo - RJ, Boaçu, Generoso Portela N° 9874</span></h4>
+              </td>
+            </tr>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="assets/imgs/user img ok.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>Leonor <br> <span>São Gonçalo - RJ, Boaçu, Silverio Rosa N° 2345</span></h4>
+              </td>
+            </tr>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="assets/imgs/user img ok.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>Valesko Popozudo <br> <span>São Gonçalo - RJ, Vila Iara, Calabreso N° 8181</span></h4>
+              </td>
+            </tr>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="assets/imgs/user img ok.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>Mariana <br> <span>Itaborai - RJ, Serrão, Emilio Prata N° 9513</span></h4>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/assets/js/main.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
